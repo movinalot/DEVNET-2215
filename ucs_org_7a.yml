@@ -1,0 +1,10 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - ucs_org_7:
+      hostname: "sandbox-ucsm1.cisco.com"
+      username: "ansible"
+      password: "ansible101"
+      name: prod
+      descr: Production Organization
+      state: absent

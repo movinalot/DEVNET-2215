@@ -1,0 +1,8 @@
+  
+{ "ANSIBLE_MODULE_ARGS":
+  {
+    "name": "prod",
+    "descr": "Production Org",
+    "state": "present"
+  }
+}

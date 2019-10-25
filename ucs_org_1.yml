@@ -1,0 +1,7 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - ucs_org_1:
+      name: prod
+      descr: Production Organization
+      state: present

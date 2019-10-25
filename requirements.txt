@@ -1,0 +1,2 @@
+ansible>=2.8.6
+ucsmsdk>=0.9.8
